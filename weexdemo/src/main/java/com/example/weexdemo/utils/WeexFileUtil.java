@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 
 /**
  * 文件处理
- * Created by alexwangweiqi on 16/11/29.
+ * Created by fei on 16/11/29.
  */
 public class WeexFileUtil {
     private static final String TAG = WeexFileUtil.class.getSimpleName();

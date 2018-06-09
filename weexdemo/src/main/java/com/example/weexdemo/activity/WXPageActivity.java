@@ -62,10 +62,10 @@ public class WXPageActivity extends AppCompatActivity implements IWXRenderListen
 
         Logger.e(path);
 
-        if (path.contains("LearningPlanB")) {   // 跳转的是计划
+        if (path.contains("fly")) {   // 跳转的是qitayemian
             int index = path.lastIndexOf("?");
             Logger.e(index+"");
-//            String substring = path.substring(0,index).replace("?learning_plan_f_n","");
+//            String substring = path.substring(0,index).replace("?fly","");
             String substring = path.substring(0,index);
             Logger.e(substring);
 

@@ -11,7 +11,9 @@ import com.taobao.weex.ui.component.WXVContainer;
 import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
-
+/**
+ * 扩展gif动画
+ */
 public class GifImage extends WXComponent<GifImageView> {
 
     GifImageView gifview;

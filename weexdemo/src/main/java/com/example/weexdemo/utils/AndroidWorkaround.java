@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 
 /**
  * 解决底部屏幕按键适配
- * Created by Mercury on 2016/10/25.
+ * Created by fei on 2016/10/25.
  */
 public class AndroidWorkaround {
     public static void assistActivity(View content) {

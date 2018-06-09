@@ -10,6 +10,9 @@ import com.taobao.weex.ui.component.WXComponent;
 import com.taobao.weex.ui.component.WXComponentProp;
 import com.taobao.weex.ui.component.WXVContainer;
 
+/**
+ * 扩展圆形进度条
+ */
 public class CircleProgress extends WXComponent<Progress> {
     private int preColor = Color.parseColor("#f2f2f2");
     private int progressColor = Color.parseColor("#6bb849");

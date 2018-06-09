@@ -12,6 +12,9 @@ import com.taobao.weex.adapter.IWXImgLoaderAdapter;
 import com.taobao.weex.common.WXImageStrategy;
 import com.taobao.weex.dom.WXImageQuality;
 
+/**
+ * 加载本地图片
+ */
 public class ImageAdapterF implements IWXImgLoaderAdapter {
 
     public ImageAdapterF() {
@@ -85,7 +88,7 @@ public class ImageAdapterF implements IWXImgLoaderAdapter {
 //                    picasso.load(Uri.parse(strategy.placeHolder)).into(view);
 //                    view.setTag(strategy.placeHolder.hashCode(), picasso);
 
-                    // 正式图片加载失败后，再加载回默认图片 -- 3
+                    // 正式图片加载失败后，再加载回默认图片  3
                     final Callback cb2 = new Callback() {
                         @Override
                         public void onSuccess() {
@@ -106,7 +109,7 @@ public class ImageAdapterF implements IWXImgLoaderAdapter {
                         }
                     };
 
-                    // 加载正式图片 -- 2
+                    // 加载正式图片  2
                     final Callback cb = new Callback() {
                         @Override
                         public void onSuccess() {
@@ -125,7 +128,7 @@ public class ImageAdapterF implements IWXImgLoaderAdapter {
                         }
                     };
 
-                    // 先加载默认图片 -- 1
+                    // 先加载默认图片  1
                     if(strategy.placeHolder.startsWith(localTag)){
                         String fileName = strategy.placeHolder.substring(localTag.length());
                         Picasso.with(WXEnvironment.getApplication())

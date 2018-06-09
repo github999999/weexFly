@@ -2,7 +2,7 @@ package com.example.weexdemo.utils;
 
 /**
  * 常量配置
- * Created by alexwangweiqi on 16/11/14.
+ * Created by fei on 16/11/14.
  */
 public class WeexConstants {
 

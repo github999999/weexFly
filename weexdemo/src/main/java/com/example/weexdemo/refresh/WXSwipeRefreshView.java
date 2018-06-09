@@ -20,7 +20,7 @@ import com.taobao.weex.ui.component.WXVContainer;
 
 
 /**
- * Created by cxy on 2016/12/16.
+ * Created by fei on 2017/12/16.
  */
 //public class WXSwipeRefreshView extends WXVContainer<SwipeRefreshLayout> {
 public class WXSwipeRefreshView extends WXComponent<SwipeRefreshLayout> {

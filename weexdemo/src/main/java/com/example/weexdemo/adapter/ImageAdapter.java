@@ -21,7 +21,9 @@ import com.taobao.weex.dom.WXImageQuality;
 import java.io.IOException;
 import java.io.InputStream;
 
-
+/**
+ * 加载本地图片
+ */
 public class ImageAdapter implements IWXImgLoaderAdapter {
 
   private Bitmap getImageFromAssetsFile(String fileName, Context ctx)

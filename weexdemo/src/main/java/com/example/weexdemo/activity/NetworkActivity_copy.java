@@ -22,7 +22,6 @@
 //
 ////  private static String TEST_URL = "http://dotwe.org/raw/dist/6fe11640e8d25f2f98176e9643c08687.bundle.js";
 //  private static String TEST_URL = "http://192.168.2.102:9999?page=index";
-////  private static String TEST_URL = "http://192.168.2.121:8100/dist/EPTask.js";
 //  private WXSDKInstance mWXSDKInstance;
 //  private FrameLayout mContainer;
 //

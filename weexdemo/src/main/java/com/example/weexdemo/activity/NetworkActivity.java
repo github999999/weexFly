@@ -20,8 +20,6 @@ public class NetworkActivity extends WXBaseActivity {
     private FrameLayout mContainer;
     private static final String TAG = NetworkActivity.class.getSimpleName();
     private static final String JS_PATH = "http://192.168.2.103:9999?page=index";
-//    private static final String JS_PATH = "http://192.168.2.105:8888?page=index";
-//    private static final String JS_PATH = "http://192.168.2.121:8888?page=EPTask";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
